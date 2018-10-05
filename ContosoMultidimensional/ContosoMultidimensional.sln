@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "ContosoMultidimensional", "ContosoMultidimensional\ContosoMultidimensional.dwproj", "{A566BEE4-01B9-4074-B107-81DF026694CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A566BEE4-01B9-4074-B107-81DF026694CF}.Development|Default.ActiveCfg = Development
+		{A566BEE4-01B9-4074-B107-81DF026694CF}.Development|Default.Build.0 = Development
+		{A566BEE4-01B9-4074-B107-81DF026694CF}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {877156D9-0FD7-4503-8668-C3C197B37754}
+	EndGlobalSection
+EndGlobal
