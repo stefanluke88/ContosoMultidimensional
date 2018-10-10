@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "ContosoMultidimensional", "ContosoMultidimensional\ContosoMultidimensional.dwproj", "{A566BEE4-01B9-4074-B107-81DF026694CF}"
 EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "AdventureWorks", "AdventureWorks\AdventureWorks.dwproj", "{B6C51E8F-8748-4D19-8604-6A9000467364}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Development|Default = Development|Default
@@ -13,6 +15,9 @@ Global
 		{A566BEE4-01B9-4074-B107-81DF026694CF}.Development|Default.ActiveCfg = Development
 		{A566BEE4-01B9-4074-B107-81DF026694CF}.Development|Default.Build.0 = Development
 		{A566BEE4-01B9-4074-B107-81DF026694CF}.Development|Default.Deploy.0 = Development
+		{B6C51E8F-8748-4D19-8604-6A9000467364}.Development|Default.ActiveCfg = Development
+		{B6C51E8F-8748-4D19-8604-6A9000467364}.Development|Default.Build.0 = Development
+		{B6C51E8F-8748-4D19-8604-6A9000467364}.Development|Default.Deploy.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
