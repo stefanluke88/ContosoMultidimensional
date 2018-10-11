@@ -3,4 +3,12 @@
   <Name>SecurityTest</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
   <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Members>
+    <Member>
+      <Name>SampleUser</Name>
+    </Member>
+    <Member>
+      <Name>BRANDIXLK\AsankaP</Name>
+    </Member>
+  </Members>
 </Role>

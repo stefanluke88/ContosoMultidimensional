@@ -128,7 +128,15 @@
       <AttributePermissions>
         <AttributePermission dwd:design-time-name="cc254b0e-4a09-491e-88f2-a956224fab6c">
           <AttributeID>Parent Employee Key</AttributeID>
-          <AllowedSet>[Employee].[Employees].&amp;[290].CHILDREN</AllowedSet>
+          <AllowedSet>DESCENDANTS( StrToMember( "[Employee].[Employees].&amp;["+
+
+StrToMember("[Employee].[Login ID].["+USERNAME()+"]").PROPERTIES("KEY") 
+
+ +"]") )</AllowedSet>
+          <VisualTotals>1</VisualTotals>
+        </AttributePermission>
+        <AttributePermission dwd:design-time-name="defd6fce-0457-41ad-b4b1-eb68133daff4">
+          <AttributeID>Login ID</AttributeID>
         </AttributePermission>
       </AttributePermissions>
     </DimensionPermission>
